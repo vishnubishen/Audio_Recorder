@@ -84,7 +84,7 @@ function AudioRecorder() {
       ) : (
         <>
           <button onClick={startRecording}>Start Recording</button>
-          {!stream && <span>Allow microphoen access</span>}
+          {!stream && <span>*Allow microphone access</span>}
           <br />
           <br />
 
